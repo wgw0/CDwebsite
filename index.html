@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countdown Solver</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="./favicon.png">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Countdown Solver</h1>
+        <label for="numbers">Enter numbers (comma-separated):</label>
+        <input type="text" id="numbers" placeholder="e.g. 100, 3, 6, 75, 50">
+        <br>
+        <label for="target">Enter target number:</label>
+        <input type="number" id="target" placeholder="e.g. 952">
+        <br>
+        <button onclick="solveCountdown()">Solve</button>
+        <h2>Result:</h2>
+        <pre id="result"></pre>
+    </div>
+</body>
+</html>
